@@ -1,0 +1,11 @@
+#!/bin/bash
+# nicenum - Given a number, displays it in comma-separated form. Expects DD
+#           (decimal point delimiter) and TD (thousands delimeter) to be
+#           instantiated.
+
+nicenumber()
+{
+  # Note that we assume that '.' is the decimal separator in the INPUT
+  # value to this script. The decimal separator in the output value is '.'
+  # unless specified by the user with the -d flag.
+
